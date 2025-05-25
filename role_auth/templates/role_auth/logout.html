@@ -1,0 +1,7 @@
+{% extends "role_auth/home.html" %}
+
+{% block content %}
+<h1>Logged out</h1>
+<p>Back to <a href={% url 'home' %}>Home</a></p>
+<p><a href={% url 'login' %}>Login</a></p>
+{% endblock %}
